@@ -1,0 +1,485 @@
+{
+  "project": "Media Monitoring Expansion",
+  "created": "2026-01-30",
+  "last_updated": "2026-01-30T06:04:00+05:30",
+  "phases": {
+    "phase_0": {
+      "name": "Setup & Planning",
+      "goal": "Set up project structure, capture context, define action plan"
+    },
+    "phase_1": {
+      "name": "Competitive Research",
+      "goal": "Deep teardown of Meltwater, Cision, Muck Rack, and 2–3 others"
+    },
+    "phase_2": {
+      "name": "Media Partnerships Exploration",
+      "goal": "Understand how incumbents access premium content. Begin outreach to media houses."
+    },
+    "phase_3": {
+      "name": "Gap Analysis & Feasibility",
+      "goal": "Map current capabilities vs what's needed. Answer: what will it take to compete?"
+    },
+    "phase_4": {
+      "name": "Outreach Execution",
+      "goal": "Persistent, high-volume outreach to competitors (demos), media houses (partnerships), market contacts"
+    },
+    "phase_5": {
+      "name": "Reporting & Swapnil Updates",
+      "goal": "Regular structured updates to Swapnil"
+    }
+  },
+  "actions": [
+    {
+      "id": 1,
+      "date": "2026-01-30",
+      "time": "00:00+05:30",
+      "phase": "phase_0",
+      "action": "Created product.md — documented current product capabilities",
+      "status": "done",
+      "outcome": "Captured current pipeline (ingest → match → deliver), capabilities table, limitations table, ICP, and scale metrics",
+      "tags": ["setup", "documentation"]
+    },
+    {
+      "id": 2,
+      "date": "2026-01-30",
+      "time": "00:00+05:30",
+      "phase": "phase_0",
+      "action": "Created context.md — captured Swapnil's meeting direction",
+      "status": "done",
+      "outcome": "All four workstreams documented: competitive research, partnerships, outreach, positioning. Open questions and decision log included.",
+      "tags": ["setup", "documentation", "ceo-meeting"]
+    },
+    {
+      "id": 3,
+      "date": "2026-01-30",
+      "time": "00:00+05:30",
+      "phase": "phase_0",
+      "action": "Created action-log.json — structured tracking system",
+      "status": "done",
+      "outcome": "JSON-based action log for programmatic querying across weeks/months",
+      "tags": ["setup", "documentation"]
+    },
+    {
+      "id": 4,
+      "date": "2026-01-30",
+      "time": "00:00+05:30",
+      "phase": "phase_0",
+      "action": "Defined prioritized action plan for Week 1",
+      "status": "done",
+      "outcome": "Identified next actions: build competitor list, create dummy email, request demos, public research, draft outreach emails, prepare Friday update",
+      "tags": ["planning"]
+    },
+    {
+      "id": 5,
+      "date": "2026-01-30",
+      "time": "00:00+05:30",
+      "phase": "phase_1",
+      "action": "Read and processed 23-page competitive landscape PDF (Meltwater, Cision, Muck Rack)",
+      "status": "done",
+      "outcome": "Full product-level analysis, tech & ops breakdown, pricing/GTM strategies, feature comparison matrix extracted from ChatGPT-generated research report",
+      "tags": ["competitive-research", "documentation"]
+    },
+    {
+      "id": 6,
+      "date": "2026-01-30",
+      "time": "00:00+05:30",
+      "phase": "phase_1",
+      "action": "Created competitive-research/ folder with 4 structured files",
+      "status": "done",
+      "outcome": "Files created: landscape-overview.md (comparison matrix + positioning), meltwater.md (full dossier), cision.md (full dossier), muck-rack.md (full dossier). Each covers: product features, analytics, AI, tech stack, data sourcing, partnerships, pricing, GTM, clients, strengths/weaknesses",
+      "tags": ["competitive-research", "documentation"]
+    },
+    {
+      "id": 7,
+      "date": "2026-01-30",
+      "time": "00:05+05:30",
+      "phase": "phase_0",
+      "action": "Created execution-plan.md — 9-workstream competitive intelligence deep dive plan",
+      "status": "done",
+      "outcome": "Detailed plan with 9 research workstreams across 3 phases (A/B/C), specific search queries, tools, and output files for each. Approved by user.",
+      "tags": ["planning", "execution-plan"]
+    },
+    {
+      "id": 8,
+      "date": "2026-01-30",
+      "time": "05:00+05:30",
+      "phase": "phase_1",
+      "action": "Executed Phase A — Workstream 1: Market Sizing",
+      "status": "done",
+      "outcome": "Created market-sizing.md (30KB). Meltwater ~$500M rev, Cision ~$850-950M, Muck Rack ~$50-80M ARR. Global market $3.5-5.0B (2024), growing 9-12% CAGR. TAM $4.5B, SAM ~$600-700M, SOM Year 3: $5M-$18M ARR. Market highly fragmented — top 2 hold only ~20-25% share.",
+      "tags": ["competitive-research", "market-sizing", "phase-a"]
+    },
+    {
+      "id": 9,
+      "date": "2026-01-30",
+      "time": "05:00+05:30",
+      "phase": "phase_1",
+      "action": "Executed Phase A — Workstream 2: Missing Competitors (5 additional players)",
+      "status": "done",
+      "outcome": "Created 5 deep-dive files: onclusive.md (PR attribution leader, Critical Mention broadcast), signal-ai.md (AI-native intelligence, $100M+ funded), brand24.md (self-serve $79/mo, Warsaw-listed), mention.md (Paris-based, Mynewsdesk-acquired, $41/mo), talkwalker.md (Hootsuite-acquired, best visual analytics, 187 languages). Total competitor count now: 8 companies fully profiled.",
+      "tags": ["competitive-research", "competitors", "phase-a"]
+    },
+    {
+      "id": 10,
+      "date": "2026-01-30",
+      "time": "05:00+05:30",
+      "phase": "phase_1",
+      "action": "Executed Phase A — Workstream 3: Customer Voice & Win-Loss Analysis",
+      "status": "done",
+      "outcome": "Created customer-voice.md (43KB). Key findings: #1 complaint is pricing/contract abuse (65%), #2 is data accuracy/false positives (55%), #3 is UX problems (45%). Most common switch: Cision→Muck Rack. Biggest unmet need: transparent pricing + AI that actually works + unified coverage. Reddit consensus: 'Google Alerts catches 70% of what $30K tools do.'",
+      "tags": ["competitive-research", "customer-voice", "phase-a"]
+    },
+    {
+      "id": 11,
+      "date": "2026-01-30",
+      "time": "05:00+05:30",
+      "phase": "phase_1",
+      "action": "Executed Phase A — Workstream 9: Legal & Compliance Assessment",
+      "status": "done",
+      "outcome": "Created legal-compliance.md (56KB). CRITICAL FINDING: AlmaLabs is in the exact legal posture Meltwater was pre-AP lawsuit (2013). Three RED-level risks: (1) displaying full article body text = copyright infringement per AP v. Meltwater, (2) zero content licensing agreements, (3) scraping 50K sites without ToS review. Immediate action: reduce to headline+link. Compliance cost: $120K-$700K/year vs lawsuit risk of $1-10M+.",
+      "tags": ["legal", "compliance", "risk-assessment", "phase-a"]
+    },
+    {
+      "id": 12,
+      "date": "2026-01-30",
+      "time": "05:00+05:30",
+      "phase": "phase_1",
+      "action": "Executed Phase A — Workstream 10: NLP & Latency Benchmarks",
+      "status": "done",
+      "outcome": "Created nlp-benchmarks.md (38KB, 571 lines). Industry sentiment accuracy: 70-85%. NER F1: 89%+ with spaCy transformers. Table Stakes targets: NER >80%, sentiment >72%, latency <4hrs. Competitive targets: NER >87%, sentiment >75%, latency <1hr. Recommended architecture: spaCy NER + fine-tuned RoBERTa sentiment + LLM refinement for complex cases. Cost at 50K articles/day: $500-$2,000/month (hybrid approach). Indian language NLP via MuRIL/IndicBERT achievable for Hindi (78-82% NER).",
+      "tags": ["technology", "nlp", "benchmarks", "phase-a"]
+    },
+    {
+      "id": 13,
+      "date": "2026-01-30",
+      "time": "05:45+05:30",
+      "phase": "phase_1",
+      "action": "Executed Phase B — Workstream 4: Buyer Decision Framework",
+      "status": "done",
+      "outcome": "Created buyer-framework.md (1,105 lines). Covers: 5 buyer personas mapped, purchase process by segment (Enterprise 3-6mo, Mid-Market 4-8wks, SMB 1-3wks), CRITICAL INSIGHT: stated vs revealed criteria gap — buyers SAY they want coverage breadth, but ACTUALLY switch due to pricing abuse/UX/support. RFP weighted checklist (30 criteria, 7 categories). Entry strategy: intercept at renewal trigger (60-90 days before contract renewal) and greenfield buyers. Most accessible persona: PR Director at mid-market + agency heads. Three-phase entry plan with specific actions.",
+      "tags": ["competitive-research", "buyer-framework", "phase-b"]
+    },
+    {
+      "id": 14,
+      "date": "2026-01-30",
+      "time": "05:45+05:30",
+      "phase": "phase_2",
+      "action": "Executed Phase B — Workstream 6: Content Licensing Economics",
+      "status": "done",
+      "outcome": "Created content-licensing-economics.md (1,083 lines, 64KB). Covers all 10 licensing source types. Three costed scenarios: MVP India-focused ($138K-$355K/yr), Competitive/Muck Rack-level ($839K-$1.78M/yr), Enterprise/Meltwater-level ($2.4M-$7.3M/yr). Twitter/X Enterprise is most expensive single line item ($504K-$1.2M+/yr). LexisNexis recommended as best first major aggregator partner. India-first strategy validated — Indian content licensing costs 10-20% of US/EU equivalents. Hidden costs $75K-$160K/yr for compliance infrastructure. Partnership setup timelines: 2-12 months per provider.",
+      "tags": ["licensing", "partnerships", "cost-model", "phase-b"]
+    },
+    {
+      "id": 15,
+      "date": "2026-01-30",
+      "time": "05:47+05:30",
+      "phase": "phase_1",
+      "action": "Executed Phase B — Workstream 8: Adjacent & Free Alternatives",
+      "status": "done",
+      "outcome": "Created adjacent-alternatives.md (1,124 lines). Google Alerts deep analysis (catches ~60-70% of what paid tools find). Five-stage upgrade journey mapped (Stage 0: unmonitored → Stage 4: enterprise). KEY INSIGHT: ~60% of organizations never pay for monitoring — 'good enough' problem is structural. Budget tools (Brand24 $79/mo, Mention $41/mo, Awario $29/mo) validated. AI-native alternatives emerging as threat (ChatGPT+browsing, Perplexity, custom LLM agents). Recommended 'Collapsed Funnel' strategy: enter at budget price with mid-market capabilities. Two white spaces identified: (1) mid-coverage at budget price, (2) easy+feature-rich via AI. Proposed 4-tier pricing: Free/$0, Starter/$49-79/mo, Professional/$149-199/mo, Team/$299-499/mo.",
+      "tags": ["competitive-research", "alternatives", "pricing-strategy", "phase-b"]
+    },
+    {
+      "id": 16,
+      "date": "2026-01-30",
+      "time": "05:57+05:30",
+      "phase": "phase_3",
+      "action": "Executed Phase C — Workstream 7: Technical Cost Model",
+      "status": "done",
+      "outcome": "Created technical-cost-model.md (12 sections). Three fully costed scenarios: MVP Year 1 $512K-$1.1M (break-even at 90-195 customers), Competitive 3-year cumulative $4.5M-$8.9M, Enterprise 5-year cumulative $15.7M-$36.9M. Unit economics: cost per article $0.015-$0.050, gross margin at scale 30-40% (MVP) to 70-80% (Enterprise). LTV:CAC 2.9x-15.4x. Recommendation: phased approach, self-fund MVP from AlmaConnect cash flows ($500K-$1.1M), raise $3M-$5M Series A only after 80+ customers. Go/no-go gates at Month 6, 12, and 30. Critical path: NER pipeline (Month 1-3), PTI licensing (Month 1-3), dashboard (Month 2-5).",
+      "tags": ["cost-model", "financial-analysis", "phase-c"]
+    }
+  ],
+  "decisions": [
+    {
+      "date": "2026-01-30",
+      "decision": "Focus on Media Monitoring only, not full PR suite",
+      "rationale": "Swapnil's direction — scope control",
+      "made_by": "Swapnil"
+    },
+    {
+      "date": "2026-01-30",
+      "decision": "No AI positioning — simple 'Media Monitoring' framing",
+      "rationale": "Swapnil's direction — deliberate positioning for traditional media/partner conversations",
+      "made_by": "Swapnil"
+    },
+    {
+      "date": "2026-01-30",
+      "decision": "Discovery phase first, no execution yet",
+      "rationale": "Swapnil's direction — need go/no-go assessment before building",
+      "made_by": "Swapnil"
+    },
+    {
+      "date": "2026-01-30",
+      "decision": "Use JSON for action log instead of markdown",
+      "rationale": "Claude Code is the primary reader/writer — JSON enables fast search, filter, and query across months of entries",
+      "made_by": "Swajan"
+    }
+  ],
+  "findings": [
+    {
+      "id": "f_1",
+      "date": "2026-01-30",
+      "finding": "All three competitors access paywalled content through licensing partnerships — primarily Factiva (Dow Jones), LexisNexis, and news agencies (AP, AFP, Reuters). AlmaLabs has zero media partnerships — this is a fundamental gap.",
+      "source": "Competitive landscape PDF analysis",
+      "relevance": "Critical for Phase 2 (partnerships) and Phase 3 (gap analysis)"
+    },
+    {
+      "id": "f_2",
+      "date": "2026-01-30",
+      "finding": "Muck Rack uses 'smart aggregation' — partners with LexisNexis, TVEyes, Keyhole instead of building everything in-house. Reached ~6K customers with this approach. This validates a partnership-first strategy for market entry.",
+      "source": "Muck Rack tech & ops analysis",
+      "relevance": "Supports AlmaLabs pursuing partnerships rather than building all data pipelines from scratch"
+    },
+    {
+      "id": "f_3",
+      "date": "2026-01-30",
+      "finding": "Cision's unique React Score (crisis/risk detection) and PR Newswire closed-loop are features no competitor replicates. Meltwater's GenAI Lens (LLM monitoring) is unique. Muck Rack's pitch-to-coverage detection is unique. Each has a defensible differentiator.",
+      "source": "Feature comparison analysis",
+      "relevance": "AlmaLabs needs to identify its own unique differentiator for brand media monitoring"
+    },
+    {
+      "id": "f_4",
+      "date": "2026-01-30",
+      "finding": "Pricing ranges: Muck Rack ~$5K-$15K/year, Cision ~$6K-$100K/year, Meltwater ~$10K-$100K+/year. All annual contracts, no freemium. Enterprise deals can be six figures.",
+      "source": "Pricing analysis from competitive report",
+      "relevance": "Informs AlmaLabs pricing strategy for media monitoring product"
+    },
+    {
+      "id": "f_5",
+      "date": "2026-01-30",
+      "finding": "Key data partnerships in the market: Factiva/Dow Jones (paywalled news), LexisNexis (print + online), TVEyes (broadcast), Keyhole (social listening), Brandwatch (social — Cision acquired), news agencies (AP, AFP, Reuters). These are the partnership targets.",
+      "source": "Tech & ops analysis across all three competitors",
+      "relevance": "Direct input for Phase 2 partnership outreach target list"
+    },
+    {
+      "id": "f_6",
+      "date": "2026-01-30",
+      "finding": "Global media monitoring market is $3.5-5.0B (2024), growing at 9-12% CAGR. Market is highly fragmented — top 2 players (Meltwater + Cision) hold only ~20-25% combined. 75%+ of market is regional/niche players. This fragmentation creates opportunity for new entrants.",
+      "source": "Market sizing analysis (Workstream 1)",
+      "relevance": "Validates market entry opportunity — not a winner-take-all market"
+    },
+    {
+      "id": "f_7",
+      "date": "2026-01-30",
+      "finding": "AlmaLabs' realistic Year 3 SOM is $5M-$18M ARR with 500-1,000 customers. Recommended entry: India first (lower competition, cost advantage, existing client base), mid-market ($5K-$15K deals), digital news monitoring, priced 40-60% below incumbents.",
+      "source": "TAM/SAM/SOM analysis (Workstream 1)",
+      "relevance": "Provides concrete revenue targets and entry strategy for go/no-go decision"
+    },
+    {
+      "id": "f_8",
+      "date": "2026-01-30",
+      "finding": "Market segments into 6 tiers: Enterprise full-suite (Meltwater, Cision), Enterprise social-first (Talkwalker/Hootsuite), Enterprise analytics-first (Signal AI, Onclusive), Mid-market PR-first (Muck Rack), SMB/self-serve (Brand24 $79/mo, Mention $41/mo), Broadcast specialist (Critical Mention). Self-serve entry points exist at $41-79/month.",
+      "source": "Missing Competitors analysis (Workstream 2)",
+      "relevance": "AlmaLabs can enter at SMB/mid-market tier where barriers are lowest"
+    },
+    {
+      "id": "f_9",
+      "date": "2026-01-30",
+      "finding": "#1 customer complaint across ALL platforms is pricing/contract abuse (65% of negative reviews). #2 is data accuracy (55%). Most desired product: 'Muck Rack UX + Meltwater coverage + Brand24 pricing + AI that actually works.' This product does not exist yet.",
+      "source": "Customer Voice analysis (Workstream 3)",
+      "relevance": "Defines the ideal product positioning for AlmaLabs — transparent pricing + accurate AI + broad coverage"
+    },
+    {
+      "id": "f_10",
+      "date": "2026-01-30",
+      "finding": "CRITICAL LEGAL RISK: AlmaLabs is in the exact position Meltwater was before AP sued them in 2012. Displaying full article body text is copyright infringement per AP v. Meltwater (2013). Meltwater settled for ~$5M and was forced to license content. AlmaLabs displays MORE content than Meltwater did. Immediate action needed: reduce to headline+link.",
+      "source": "Legal/Compliance assessment (Workstream 9)",
+      "relevance": "URGENT — applies to current AlmaConnect News product, not just future brand monitoring. Must be escalated to Swapnil."
+    },
+    {
+      "id": "f_11",
+      "date": "2026-01-30",
+      "finding": "Compliance cost for content licensing and legal framework: $120K-$700K/year. Non-compliance risk: $1-10M+ from a single publisher lawsuit. Every major competitor went through the scraping-to-licensing transition. AlmaLabs must do the same.",
+      "source": "Legal/Compliance assessment (Workstream 9)",
+      "relevance": "Critical input for cost model and go/no-go decision"
+    },
+    {
+      "id": "f_12",
+      "date": "2026-01-30",
+      "finding": "NLP Table Stakes for media monitoring: NER F1 >80%, sentiment >72%, latency <4hrs. AlmaLabs' current string matching is ~50-60% entity accuracy. Replacing with spaCy NER (89% F1) is the single highest-ROI technical improvement. Cost for competitive NLP at 50K articles/day: $500-$2,000/month using hybrid approach (open-source bulk + LLM for complex).",
+      "source": "NLP Benchmarks analysis (Workstream 10)",
+      "relevance": "Defines technical investment needed and demonstrates feasibility at reasonable cost"
+    },
+    {
+      "id": "f_13",
+      "date": "2026-01-30",
+      "finding": "Buyers' STATED vs REVEALED criteria diverge dramatically. Stated: coverage breadth (#1), analytics (#2), sentiment accuracy (#3). Revealed (what actually triggers switching): pricing abuse (#1, renewal hikes), poor UX (#2), unresponsive support (#3). This means AlmaLabs should compete on trust/transparency/UX, not just coverage breadth.",
+      "source": "Buyer Decision Framework (Workstream 4)",
+      "relevance": "Fundamental insight for go-to-market strategy — compete on buying experience, not feature parity"
+    },
+    {
+      "id": "f_14",
+      "date": "2026-01-30",
+      "finding": "Content licensing is the primary barrier to entry. MVP India-focused licensing: $138K-$355K/yr. Competitive (match Muck Rack): $839K-$1.78M/yr. Enterprise (match Meltwater): $2.4M-$7.3M/yr. Twitter/X Enterprise API alone is $504K-$1.2M+/yr. This is why the market has high barriers — licensing costs scale exponentially with coverage breadth.",
+      "source": "Content Licensing Economics (Workstream 6)",
+      "relevance": "Critical input for go/no-go decision — defines the minimum investment required at each tier"
+    },
+    {
+      "id": "f_15",
+      "date": "2026-01-30",
+      "finding": "India-first licensing strategy is strongly validated. Indian wire services (PTI, IANS) cost $20K-$70K/yr vs. equivalent US wire services $50K-$200K/yr. Indian publisher licenses 10-20% of US/EU costs. No competitor has built a properly-licensed Indian media monitoring platform — this is a genuine first-mover opportunity.",
+      "source": "Content Licensing Economics (Workstream 6)",
+      "relevance": "Strengthens India-first entry strategy — lower cost, less competition, existing market relationships"
+    },
+    {
+      "id": "f_16",
+      "date": "2026-01-30",
+      "finding": "~60% of organizations that could benefit from monitoring never pay for a tool. The 'good enough' problem (Google Alerts + manual checking) is structural. The paid monitoring market (~300K organizations, ~$4B revenue) represents only ~15% of potential. AI-native alternatives (ChatGPT, Perplexity, custom agents) are compressing the value of basic monitoring toward zero.",
+      "source": "Adjacent Alternatives Analysis (Workstream 8)",
+      "relevance": "Market sizing correction — true addressable market is smaller than TAM suggests. AlmaLabs should convert free users, not just displace incumbents."
+    },
+    {
+      "id": "f_17",
+      "date": "2026-01-30",
+      "finding": "Optimal entry strategy is 'Collapsed Funnel': enter at budget-tier pricing ($49-199/mo) but deliver mid-market capabilities through AI. Two positioning white spaces identified: (1) mid-coverage at budget price, (2) easy-to-use but feature-rich (AI absorbs complexity). Most accessible buyer personas: PR Directors at mid-market companies and agency heads.",
+      "source": "Adjacent Alternatives + Buyer Framework (Workstreams 4 & 8)",
+      "relevance": "Synthesized entry strategy combining buyer behavior and competitive positioning insights"
+    },
+    {
+      "id": "f_18",
+      "date": "2026-01-30",
+      "finding": "MVP India-focused brand monitoring requires $512K-$1.1M Year 1 investment. Break-even at 90-195 paying customers depending on ARPU ($75-200/mo). Self-fundable from AlmaConnect cash flows with zero external capital. This is a manageable bet with capped downside.",
+      "source": "Technical Cost Model (Workstream 7)",
+      "relevance": "Key input for go/no-go decision — the financial bar for entry is achievable"
+    },
+    {
+      "id": "f_19",
+      "date": "2026-01-30",
+      "finding": "Content licensing is the single largest cost line at EVERY tier. MVP: $138K-$355K/yr (27-39% of total cost). Competitive: $839K-$1.78M/yr (46-50%). Enterprise: $2.4M-$7.3M/yr (44-53%). This is the primary barrier to entry and the primary reason the market has incumbency advantages.",
+      "source": "Technical Cost Model (Workstream 7)",
+      "relevance": "Critical — content licensing strategy IS the business strategy. Getting licensing right determines success."
+    },
+    {
+      "id": "f_20",
+      "date": "2026-01-30",
+      "finding": "AlmaConnect's existing crawling infrastructure provides a $200K-$400K head start vs. greenfield competitors. Crawling pipeline, client base (500+ organizations), and engineering team are reusable. NER, sentiment, dedup, dashboard, and compliance must be built from scratch.",
+      "source": "Technical Cost Model (Workstream 7)",
+      "relevance": "Quantifies AlmaLabs' structural advantage from existing product"
+    }
+  ],
+  "blockers": [],
+  "pending_tasks": [
+    {
+      "id": "pt_1",
+      "phase": "phase_1",
+      "task": "Identify full competitor list (6–8 players)",
+      "priority": "high",
+      "status": "done",
+      "depends_on": null,
+      "note": "8 competitors fully profiled: Meltwater, Cision, Muck Rack, Onclusive, Signal AI, Brand24, Mention, Talkwalker"
+    },
+    {
+      "id": "pt_2",
+      "phase": "phase_1",
+      "task": "Gather public info on each competitor (features, pricing, reviews, positioning)",
+      "priority": "high",
+      "status": "done",
+      "depends_on": "pt_1",
+      "note": "Deep dossiers complete for all 8 competitors. 13 files in competitive-research/ folder totaling ~240KB."
+    },
+    {
+      "id": "pt_3",
+      "phase": "phase_1",
+      "task": "Create dummy email for demo requests",
+      "priority": "high",
+      "status": "pending",
+      "depends_on": null
+    },
+    {
+      "id": "pt_4",
+      "phase": "phase_1",
+      "task": "Request demos from all identified competitors",
+      "priority": "high",
+      "status": "pending",
+      "depends_on": ["pt_1", "pt_3"]
+    },
+    {
+      "id": "pt_5",
+      "phase": "phase_1",
+      "task": "Build comparative feature matrix",
+      "priority": "medium",
+      "status": "done",
+      "depends_on": "pt_2",
+      "note": "Feature comparison matrix created in landscape-overview.md covering all key dimensions"
+    },
+    {
+      "id": "pt_6",
+      "phase": "phase_2",
+      "task": "Research how Meltwater/Cision get licensed content",
+      "priority": "high",
+      "status": "done",
+      "depends_on": null,
+      "note": "Documented in each competitor file. Key partners: Factiva (Meltwater), LexisNexis (Muck Rack/Cision), Brandwatch (Cision), TVEyes (Cision/Muck Rack), news agencies AP/AFP/Reuters (Cision)"
+    },
+    {
+      "id": "pt_7",
+      "phase": "phase_2",
+      "task": "List target media houses for partnership outreach",
+      "priority": "medium",
+      "status": "pending",
+      "depends_on": null
+    },
+    {
+      "id": "pt_8",
+      "phase": "phase_2",
+      "task": "Draft partnership inquiry email template",
+      "priority": "medium",
+      "status": "pending",
+      "depends_on": null
+    },
+    {
+      "id": "pt_9",
+      "phase": "phase_5",
+      "task": "Prepare Friday update #1 for Swapnil",
+      "priority": "high",
+      "status": "pending",
+      "depends_on": null
+    },
+    {
+      "id": "pt_10",
+      "phase": "phase_1",
+      "task": "Execute Phase B — Workstream 4: Buyer Decision Framework",
+      "priority": "high",
+      "status": "done",
+      "depends_on": ["pt_1", "pt_2"],
+      "note": "Complete. Output: buyer-framework.md (1,105 lines). Buyer personas, decision criteria, RFP checklist, entry strategy."
+    },
+    {
+      "id": "pt_11",
+      "phase": "phase_2",
+      "task": "Execute Phase B — Workstream 6: Content Licensing Economics",
+      "priority": "high",
+      "status": "done",
+      "depends_on": ["pt_6"],
+      "note": "Complete. Output: content-licensing-economics.md (1,083 lines, 64KB). All 10 licensing sources costed. Three scenarios: MVP $138K-$355K, Competitive $839K-$1.78M, Enterprise $2.4M-$7.3M."
+    },
+    {
+      "id": "pt_12",
+      "phase": "phase_1",
+      "task": "Execute Phase B — Workstream 8: Adjacent & Free Alternatives",
+      "priority": "high",
+      "status": "done",
+      "depends_on": ["pt_1", "pt_2"],
+      "note": "Complete. Output: adjacent-alternatives.md (1,124 lines). Upgrade journey, free tool analysis, 'Collapsed Funnel' strategy, 4-tier pricing."
+    },
+    {
+      "id": "pt_13",
+      "phase": "phase_3",
+      "task": "Execute Phase C — Workstream 7: Technical Cost Model",
+      "priority": "high",
+      "status": "done",
+      "depends_on": ["pt_10", "pt_11", "pt_12"],
+      "note": "Complete. Output: technical-cost-model.md (12 sections). Three scenarios: MVP $512K-$1.1M, Competitive $4.5M-$8.9M, Enterprise $15.7M-$36.9M."
+    },
+    {
+      "id": "pt_14",
+      "phase": "phase_3",
+      "task": "Produce final synthesis document — 'Can we compete, and what will it take?'",
+      "priority": "high",
+      "status": "in_progress",
+      "depends_on": ["pt_13"],
+      "note": "All 9 workstreams complete. Launching synthesis now."
+    }
+  ]
+}
