@@ -122,9 +122,10 @@ These came directly from the synthesis. Each has a clear goal.
 ### 3.2 — Draft and send partnership inquiry emails
 - **Goal:** Outreach sent to top 10 targets. Persistent follow-up per Swapnil's directive (volume + patience over elegance).
 - **Tasks:**
-  - [ ] Draft partnership inquiry email template (position as "media monitoring", not AI)
-  - [ ] Customize for each target
-  - [ ] Send first batch (top 10)
+  - [x] Draft partnership inquiry email template (position as "media monitoring", not AI)
+  - [x] Customize for each target
+  - [x] Send first batch (9 targets) — sent 2026-01-30 from company email
+    - Dow Jones / Factiva, Thomson Reuters / LSEG, Associated Press, Bloomberg, Financial Times, Economist Group, NBCUniversal, Axel Springer, Cision / PR Newswire
   - [ ] Track responses in a spreadsheet
   - [ ] Follow up every 5-7 days — try multiple contacts per organization
   - [ ] Use LinkedIn for warm intros where possible
