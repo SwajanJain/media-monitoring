@@ -199,6 +199,26 @@
       "status": "done",
       "outcome": "Scored all 99 RssCandidate hosts independently using 3 parallel research agents. Dramatic re-ranking: Bloomberg #14→#1, FT #40→#3, MarketWatch #63→#6, DailyMail #9→#80, CNN #2→#35, NYPost #7→#69. Top 5 deals to pursue: Dow Jones/Factiva (WSJ+MarketWatch), Thomson Reuters/LSEG, AP, NBCUniversal (CNBC+4 more), Axel Springer (BI+Politico). Output: independent_scoring_20260130.json + independent_batches_20260130.md",
       "tags": ["partnerships", "evaluation", "scoring", "phase-2"]
+    },
+    {
+      "id": 18,
+      "date": "2026-01-30",
+      "time": "20:00+05:30",
+      "phase": "phase_4",
+      "action": "Sent Batch 1 partnership outreach emails to 9 top media organizations",
+      "status": "done",
+      "outcome": "10 emails sent to 9 targets: Dow Jones/Factiva, Thomson Reuters/LSEG, Associated Press, Bloomberg, Financial Times, Economist Group, NBCUniversal (2 emails), Axel Springer, Cision/PR Newswire. Customized emails for each target — positioned as 'media monitoring product' per Swapnil's directive. Sent from company email (swajan@almaconnect.com). Logged in media-partnership/outreach-emails-batch1.md.",
+      "tags": ["outreach", "partnerships", "email", "phase-4"]
+    },
+    {
+      "id": 19,
+      "date": "2026-01-31",
+      "time": "06:00+05:30",
+      "phase": "phase_4",
+      "action": "Configured Gmail MCP server in Claude Code for email outreach automation",
+      "status": "done",
+      "outcome": "Connected Google Workspace MCP (list, search, send, modify emails + calendar) to Claude Code via .mcp.json. Enables direct email outreach for content licensing and media partnership inquiries from within Claude Code sessions. Verified working — successfully queried sent emails (10 batch 1 outreach emails from 2026-01-30 confirmed).",
+      "tags": ["setup", "tooling", "email", "outreach", "phase-4"]
     }
   ],
   "decisions": [
