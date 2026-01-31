@@ -27,8 +27,8 @@ All 9 research workstreams are done. Remaining research tasks are hands-on.
 - [x] NLP/latency benchmarks — target thresholds defined
 - [x] Adjacent alternatives — upgrade journey mapped, "Collapsed Funnel" strategy
 - [x] Final synthesis document — go/no-go recommendation delivered
-- [ ] Create dummy email account for competitor demo requests
-- [ ] Request product demos from all 8 competitors
+- [ ] Create Qodex email account for competitor demo requests
+- [ ] Request product demos from all 8 competitors (using Qodex email)
 - [ ] Document each demo (features, UX, data sources, filters, dashboards, gaps)
 
 ---
