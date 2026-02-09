@@ -495,6 +495,150 @@ No incumbent builds this. Every incumbent has structural reasons (sales team com
 
 ---
 
+## 12. Market Gaps — What's Still Broken and Why
+
+Based on everything 425 threads tell us, here are the real problems that no one has fixed yet — explained simply.
+
+### Gap 1: Tools show data, not answers
+
+Every monitoring tool today works the same way: it collects articles and mentions about your brand and shows them in a list. You get 300 results. Now figure out what matters.
+
+That's the problem. PR teams don't need 300 articles. They need someone to say: *"Here are the 3 things that matter today, here's why, and here's what changed since yesterday."*
+
+No tool does this. Meltwater gives you dashboards. Cision gives you streams. Muck Rack gives you trackers. They all show you everything and explain nothing.
+
+> *"Leadership wants answers, not dashboards."* — u/honeytech
+
+> *"Honestly would pay extra for a tool that just says 'here's the 3 things that matter today and here's what you should do about them.'"* — u/nikosmrg
+
+**Why it still exists**: Incumbents built their products 10-15 years ago around dashboards and charts. Rebuilding around AI-generated summaries means rethinking the entire product. It's easier to add an "AI summary" button to the old dashboard than to replace the dashboard entirely.
+
+### Gap 2: Sentiment analysis doesn't work
+
+When a tool tells you "Sentiment: 62% Positive" — what does that even mean? Should you be happy? Worried? It doesn't say.
+
+The accuracy numbers tell the story:
+- Cision: gets it right 65-75% of the time (basically a coin flip with a slight edge)
+- Muck Rack: 70-75% (uses a 10+ year old rules-based system)
+- Meltwater: won't even share their numbers
+- Brand24: claims 95% but drops to 60-70% for non-English content
+
+Users have stopped trusting these numbers entirely:
+
+> *"I do manual coding, because I find whatever the tracking service spits out to be deeply suspect."* — u/Wazootyman13
+
+> *"Even when using something like Meltwater, we still had humans reviewing anything high impact or ambiguous."* — u/Sorry_Team_3451
+
+One user figured out the right approach on their own using ChatGPT:
+
+> *"Don't just ask if the article is positive/negative. Ask: would this article make a customer more likely to buy? Would it make an employee want to work here?"* — u/Feeling-Campaign-793
+
+That's the gap: sentiment should be tied to business outcomes ("will this hurt sales?"), not abstract labels ("negative").
+
+### Gap 3: India doesn't exist for these tools
+
+This is straightforward. Across all four major players:
+
+- **None** monitor PTI or IANS (the two wire services that feed every Indian newsroom)
+- **None** offer Hindi or regional language understanding that actually works
+- **None** bill in INR
+- **None** handle SEBI compliance requirements
+- **None** have meaningful Indian regional news coverage
+
+Meltwater has an office in Delhi but their India-specific coverage is thin. Cision only has PR Newswire distribution offices. Muck Rack has zero India presence. Brand24 doesn't even try.
+
+An Indian company paying for Meltwater today spends $15,000-$40,000 per year in USD and still misses half their local coverage. The entire Indian market is underserved.
+
+### Gap 4: Getting started takes weeks
+
+To start using Meltwater or Cision, you need to:
+1. Book a demo with a sales rep
+2. Wait for a "Customer Success Manager" to be assigned
+3. Sit through 2-3 training sessions on how to build Boolean search queries
+4. Wait 2-4 weeks while they configure your account
+
+Only after all that do you see your first result.
+
+Brand24 is the exception — you can sign up and see results in under 10 minutes. That's why they've grown to $12M in revenue despite being a fraction of the size of others.
+
+> *"Muck Rack is expensive and overkill for startups. Start with Qwoted responses and manual journalist research."* — u/anna_at_ideagrove
+
+The gap: there's no tool where you type your brand name and immediately get useful results, especially for the Indian market.
+
+### Gap 5: Reports are useless
+
+PR teams spend hours every week rebuilding reports in PowerPoint because the reports their tools generate are either ugly, shallow, or both.
+
+30% of Meltwater's negative reviews mention reporting. Users describe exporting raw CSV data and manually assembling it into something they can show leadership.
+
+> *"Like a good mob accountant I keep two sets of books. One with the ridiculous vanity metrics ('reach' and potential audience) and one with the actual measurable stuff."* — u/nm4471efc
+
+The metrics themselves are the problem too. When a tool says an article has "80 million potential audience," everyone knows that's meaningless. A Forbes contributor post that gets 237 real clicks gets reported as reaching 80 million people. Nobody believes these numbers, but every tool still uses them because the alternative (admitting they can't measure real readership) is worse for sales.
+
+### Gap 6: Nobody tracks whether your press coverage shows up in AI answers
+
+This is the newest gap and nobody has a good answer yet.
+
+When someone asks ChatGPT *"What's the best project management tool?"* — the AI gives an answer. It mentions specific brands. It pulls from specific articles.
+
+PR teams now have two audiences for every press article:
+1. **Humans** who read the article
+2. **AI models** that learn from the article and then recommend brands to millions of users
+
+The problem: no tool can reliably tell you *"ChatGPT mentioned your brand 47 times this week, up from 31 last week"* or *"This article you got in Economic Times is now being cited by Gemini when people ask about your industry."*
+
+> *"AI pulls from earned media but tracking is mostly BS. Most tools can't prove when you get cited."* — u/matiaesthetic_31
+
+> *"It makes me wonder if we'll start seeing a new metric — something like 'AI Sourcing Rank' — in addition to traditional things like share of voice."* — u/Maltese_PR_Pro
+
+Meltwater, Muck Rack, and Brand24 have each launched early versions of this, but the Reddit consensus is clear — they monitor but don't help you improve:
+
+> *"Most platforms I've tried are basically: 'Here's where you show up in AI answers... good luck fixing it!'"* — u/OrganizationAny181
+
+### Gap 7: Pricing makes people share accounts illegally
+
+The pricing across competitors:
+- **Meltwater**: $15,000-$100,000+ per year, annual contract only, no public pricing
+- **Cision**: $6,000-$100,000+ per year, annual contract only, no public pricing, 20-50% renewal hikes
+- **Muck Rack**: $5,000-$53,000+ per year, annual contract only, 17% renewal increase (new)
+- **Brand24**: $948-$4,788 per year (only one with public pricing and monthly option)
+
+The result: people are sharing accounts, splitting costs with other agencies, and the subreddit moderator himself endorsed it:
+
+> *"We need to set up an exchange for this."* — u/Separatist_Pat (moderator, 9 upvotes)
+
+When the moderator of the industry's main community endorses account-sharing, the pricing model is broken. Monthly billing, transparent pricing, and reasonable per-seat costs are table stakes that only Brand24 partially delivers.
+
+### Gap 8: Stories spread across platforms but tools track them separately
+
+A negative story about a brand might start as a Reddit thread, get picked up by a journalist, go viral on Twitter, then become a citation in ChatGPT answers. That's one story — but every tool treats each platform as a separate bucket.
+
+> *"The feature I keep wanting is better cross-platform narrative tracking... most tools treat those as separate events instead of mapping the whole flow."* — u/nikosmrg
+
+No tool connects the dots across platforms to show: *"This started here, spread here, and is now being amplified here."* Teams have to manually piece together the timeline across different dashboards.
+
+---
+
+### Summary: What the market actually needs
+
+| What exists today | What people actually want |
+|---|---|
+| Dashboards with 300 mentions | "Here are the 3 things that matter today" |
+| Sentiment: Positive/Negative/Neutral | "Would this article make a customer stop buying?" |
+| Global tools that ignore India | India-first: PTI, IANS, Hindi, INR billing |
+| 2-4 week onboarding with sales calls | Type your brand name, get results now |
+| Export CSV, rebuild in PowerPoint | AI-written weekly brief sent to your email |
+| "Potential audience: 80 million" | Honest metrics tied to real readership |
+| No AI citation tracking | "ChatGPT mentioned your brand 47 times this week" |
+| $15K-$40K/year, annual lock-in | Monthly billing, transparent pricing |
+| Each platform in a separate tab | One story tracked across all platforms |
+
+The thread that sums up the entire market:
+
+> *"How is it possible that we still have no valid alternatives in 2026? In the AI world we're living in now, I really expected viable alternatives to have emerged by this point."* — u/fabio1188 (29 upvotes)
+
+---
+
 ## Data Notes
 
 - 997 total posts scanned from r/PublicRelations (Feb 2025 – Feb 2026)

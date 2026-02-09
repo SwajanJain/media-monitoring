@@ -26,7 +26,7 @@ AlmaConnect News is a **prospect and alumni intelligence product** built for uni
 
 ## Current Technical Pipeline
 
-The system operates as a three-step pipeline:
+The system operates as a five-step pipeline:
 
 ### 1. Ingest
 - Scrape/fetch articles daily from **20,000 to 50,000 news websites**
@@ -40,7 +40,15 @@ The system operates as a three-step pipeline:
 - This is essentially **string matching** — if a prospect's name appears in an article body, it's flagged as a match
 - No identity resolution, confidence scoring, or disambiguation layer exists today
 
-### 3. Deliver
+### 3. Cluster
+- Cluster matched articles so clients don’t see repetitive duplicates (e.g., syndicated or near-identical coverage)
+- This runs in live production for the alumni/prospect news product today
+
+### 4. Sentiment
+- Perform sentiment analysis on clustered coverage to label coverage as positive/negative/neutral
+- This runs in live production for the alumni/prospect news product today (cluster-level sentiment)
+
+### 5. Deliver
 - Matched articles are surfaced as **posts or alerts** to the client
 - **Content display model:** Alerts show a **snippet + URL** — users must click through to the original publisher's website to read the full article (similar to Google News model)
 
@@ -55,6 +63,8 @@ The system operates as a three-step pipeline:
 | Web scraping | Yes | Plugin-based scraping |
 | Prospect list management | Yes | Handles 10K–200K prospect lists per client |
 | Name-to-article matching | Yes | String matching against article body |
+| Clustering / deduplication | Yes | Clusters repetitive/syndicated coverage in production |
+| Sentiment analysis | Yes | Production sentiment on clusters (baseline positive/negative/neutral) |
 | Alert/post delivery | Yes | Alerts delivered to clients |
 | Existing client base | Yes | Large institutional clients already using the product |
 | Infrastructure for scale | Yes | Already processing high volume daily |
@@ -68,10 +78,10 @@ The system operates as a three-step pipeline:
 | Identity resolution | No disambiguation — common names will produce false positives |
 | Confidence scoring | No match confidence (high/medium/low) on alerts |
 | Entity extraction (NER) | No structured extraction of people, companies, roles, events |
-| Sentiment analysis | No positive/negative/neutral classification |
 | Topic/category classification | No tagging (wealth signal, relationship trigger, stewardship, etc.) |
 | Relevance scoring | No prioritization — all matches treated equally |
-| Deduplication | No clustering of syndicated copies of the same story |
+| Sentiment analysis (quality + scope) | Sentiment exists in production (cluster-level), but needs better accuracy, explainability, and expansion for brand monitoring (e.g., aspect-based sentiment, multilingual, social) |
+| Clustering/deduplication (quality + scope) | Clustering exists in production, but needs to be more robust for brand monitoring across higher volume, more sources, and more aggressive syndication patterns |
 | Workflow/assignment | No team-based assignment, status tracking, or feedback loop |
 | Premium/paywalled content | No access — scraping only public sources |
 | Full article display | No — snippet + URL with clickthrough to original source |
