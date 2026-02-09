@@ -28,7 +28,15 @@ All 9 research workstreams are done. Remaining research tasks are hands-on.
 - [x] Adjacent alternatives — upgrade journey mapped, "Collapsed Funnel" strategy
 - [x] Final synthesis document — go/no-go recommendation delivered
 - [ ] Create Qodex email account for competitor demo requests
-- [ ] Request product demos from all 8 competitors (using Qodex email)
+- [~] Request product demos from all 8 competitors
+  - [x] Meltwater — demo requested 2026-02-04
+  - [ ] Cision
+  - [ ] Muck Rack
+  - [ ] Onclusive
+  - [ ] Signal AI
+  - [ ] Brand24
+  - [ ] Mention
+  - [ ] Talkwalker
 - [ ] Document each demo (features, UX, data sources, filters, dashboards, gaps)
 
 ---
@@ -37,24 +45,18 @@ All 9 research workstreams are done. Remaining research tasks are hands-on.
 
 These came directly from the synthesis. Each has a clear goal.
 
-### 2.1 — Stop displaying full article text in AlmaConnect News
-- **Why:** AlmaLabs is in the exact legal posture Meltwater was pre-AP lawsuit (2013). Displaying full body text = copyright infringement.
-- **Goal:** Switch alerts to headline + link + 2-3 sentence AI-generated summary.
-- **Tasks:**
-  - [ ] Get Swapnil's approval to change alert format
-  - [ ] Modify alert template — remove full article body
-  - [ ] Add AI summary generation (2-3 sentence excerpt)
-  - [ ] Test with a subset of clients before full rollout
-  - [ ] Roll out to all AlmaConnect News alerts
+### 2.1 — ~~Stop displaying full article text~~ (NOT NEEDED)
+- **Update (2026-02-04):** AlmaConnect News already displays only snippet + URL with clickthrough to original source. This is similar to Google News model and carries lower copyright risk than previously assessed.
+- **No action required** on content display format.
+- **Remaining focus:** Pursue content licensing partnerships for premium content access and to strengthen legal position as brand monitoring scales.
 
-### 2.2 — Engage IP/copyright attorney
-- **Why:** Must have legal framework before entering brand monitoring. AP v. Meltwater precedent is directly applicable.
-- **Goal:** Signed engagement with an attorney who has US copyright + content licensing expertise. Budget: $20K–$50K.
+### 2.2 — Engage IP/copyright attorney (Optional — lower priority)
+- **Why:** Legal counsel can help structure licensing agreements and review compliance as brand monitoring scales.
+- **Update (2026-02-04):** Current snippet + clickthrough model is lower risk. Legal counsel is advisable but not urgent.
+- **Goal:** Consult with attorney experienced in content licensing when pursuing major partnerships. Budget: $10K–$30K.
 - **Tasks:**
   - [ ] Research IP/copyright attorneys with media monitoring or news aggregation experience
-  - [ ] Shortlist 2-3 firms
-  - [ ] Schedule intro calls
-  - [ ] Select attorney and begin compliance assessment
+  - [ ] Engage when ready to sign first major licensing deal (LexisNexis, Factiva, etc.)
 
 ### 2.3 — Initiate PTI licensing outreach
 - **Why:** Press Trust of India is the most accessible first licensing partner. India-first strategy validated — Indian content costs 10-20% of US/EU.

@@ -42,6 +42,7 @@ The system operates as a three-step pipeline:
 
 ### 3. Deliver
 - Matched articles are surfaced as **posts or alerts** to the client
+- **Content display model:** Alerts show a **snippet + URL** — users must click through to the original publisher's website to read the full article (similar to Google News model)
 
 ---
 
@@ -73,6 +74,7 @@ The system operates as a three-step pipeline:
 | Deduplication | No clustering of syndicated copies of the same story |
 | Workflow/assignment | No team-based assignment, status tracking, or feedback loop |
 | Premium/paywalled content | No access — scraping only public sources |
+| Full article display | No — snippet + URL with clickthrough to original source |
 | Social media monitoring | No social media coverage (news only) |
 | SEC/filing monitoring | No structured financial filing data |
 | Media partnerships | None — fully reliant on scraping |

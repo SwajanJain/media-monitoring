@@ -219,6 +219,46 @@
       "status": "done",
       "outcome": "Connected Google Workspace MCP (list, search, send, modify emails + calendar) to Claude Code via .mcp.json. Enables direct email outreach for content licensing and media partnership inquiries from within Claude Code sessions. Verified working — successfully queried sent emails (10 batch 1 outreach emails from 2026-01-30 confirmed).",
       "tags": ["setup", "tooling", "email", "outreach", "phase-4"]
+    },
+    {
+      "id": 20,
+      "date": "2026-02-04",
+      "time": "17:00+05:30",
+      "phase": "phase_1",
+      "action": "Requested product demo from Meltwater",
+      "status": "done",
+      "outcome": "Demo request submitted via Meltwater website. Awaiting response from sales team to schedule demo call.",
+      "tags": ["competitive-research", "demos", "meltwater", "phase-1"]
+    },
+    {
+      "id": 21,
+      "date": "2026-02-04",
+      "time": "17:30+05:30",
+      "phase": "phase_4",
+      "action": "Sent follow-up email to Dow Jones (Kamilla Rahman)",
+      "status": "done",
+      "outcome": "Follow-up sent after her OOO ended (was returning Feb 2). Referenced original Factiva/WSJ/MarketWatch licensing inquiry. Message ID: 19c289d8c508388b",
+      "tags": ["outreach", "partnerships", "email", "follow-up", "dow-jones", "phase-4"]
+    },
+    {
+      "id": 22,
+      "date": "2026-02-04",
+      "time": "17:45+05:30",
+      "phase": "phase_4",
+      "action": "Sent content licensing inquiry to CNBC (NBCUniversal)",
+      "status": "done",
+      "outcome": "Email sent to Licensing@cnbc.com with CC to Distribution@cnbc.com. Replaces bounced NBCUniversal outreach from Batch 1. Message ID: 19c28a84783030e0",
+      "tags": ["outreach", "partnerships", "email", "cnbc", "nbcuniversal", "phase-4"]
+    },
+    {
+      "id": 23,
+      "date": "2026-02-04",
+      "time": "18:00+05:30",
+      "phase": "phase_3",
+      "action": "Corrected legal risk assessment — AlmaConnect displays snippet + URL, not full article text",
+      "status": "done",
+      "outcome": "IMPORTANT CORRECTION: Previous assessments incorrectly stated AlmaConnect displays full article body text. Actual model: snippet + URL with clickthrough to original source. This is similar to Google News and carries significantly lower copyright risk. Updated: synthesis.md, legal-compliance.md, tasks.md, product.md. Removed 'URGENT' legal risk designation. Licensing partnerships remain advisable for premium content access but are no longer a legal emergency.",
+      "tags": ["legal", "compliance", "correction", "documentation", "phase-3"]
     }
   ],
   "decisions": [
@@ -314,9 +354,10 @@
     {
       "id": "f_10",
       "date": "2026-01-30",
-      "finding": "CRITICAL LEGAL RISK: AlmaLabs is in the exact position Meltwater was before AP sued them in 2012. Displaying full article body text is copyright infringement per AP v. Meltwater (2013). Meltwater settled for ~$5M and was forced to license content. AlmaLabs displays MORE content than Meltwater did. Immediate action needed: reduce to headline+link.",
-      "source": "Legal/Compliance assessment (Workstream 9)",
-      "relevance": "URGENT — applies to current AlmaConnect News product, not just future brand monitoring. Must be escalated to Swapnil."
+      "updated": "2026-02-04",
+      "finding": "CORRECTED: AlmaLabs displays snippet + URL with clickthrough to original source — NOT full article body text. This model is similar to Google News and carries significantly lower copyright risk than the AP v. Meltwater scenario. Original assessment was based on incorrect assumption. Licensing partnerships remain advisable for premium content access and legal strengthening, but this is not an urgent legal emergency.",
+      "source": "Legal/Compliance assessment (Workstream 9), corrected via user clarification 2026-02-04",
+      "relevance": "Legal risk downgraded from CRITICAL to MEDIUM. Licensing partnerships are strategic priority, not emergency fix."
     },
     {
       "id": "f_11",

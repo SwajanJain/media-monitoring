@@ -19,7 +19,7 @@
 | **Break-even point** | 100-150 customers at $100/month average |
 | **Year 3 revenue range** | $720K-$4.2M (300-1,000 customers) |
 | **Maximum downside exposure** | $1.1M (MVP only, self-funded, before go/no-go gate) |
-| **URGENT legal risk** | Current product displays full article text -- directly parallels AP v. Meltwater ($5M settlement) |
+| **Legal model** | Current product displays snippet + URL with clickthrough -- lower risk than AP v. Meltwater model |
 
 ---
 
@@ -155,20 +155,21 @@ AlmaLabs targets the gap between budget tools ($500-$2,000/year) and mid-market 
 
 *(Sources: product.md, nlp-benchmarks.md)*
 
-### URGENT: Current Copyright Risk
+### Copyright Risk Assessment (Updated 2026-02-04)
 
-**AlmaLabs is operating in the exact legal posture that Meltwater occupied before the AP sued them.** The AP v. Meltwater (2013) case is directly applicable:
+**AlmaLabs' current model is meaningfully different from Meltwater's.** The AP v. Meltwater (2013) case involved Meltwater displaying headlines + excerpts as a *substitute* for visiting the original article. AlmaLabs operates differently:
 
-- Meltwater scraped news articles and displayed excerpts to clients without licensing
-- The court ruled this was **NOT fair use** -- even short excerpts infringed copyright
-- Meltwater settled for **$5 million** and restructured its entire content licensing approach
-- **AlmaLabs displays FULL article body text** -- this is even worse than what Meltwater did
-- AlmaLabs has **zero licensing agreements** -- no good-faith defense exists
-- Statutory damages under US Copyright Act: $750-$150,000 **per work infringed**
+- **AlmaLabs displays only snippet + URL** -- users must click through to the original publisher's website to read the full article
+- This clickthrough model is **similar to Google News/Google Search** -- generally considered lower risk
+- The key factor in Meltwater's loss was the **substitution effect** (clients didn't need to visit the original source). AlmaLabs' clickthrough requirement reduces this effect.
+- AlmaLabs has **zero licensing agreements** -- licensing would strengthen legal position and unlock premium content
 
-**If the AP or any major publisher became aware of our practices, they would have strong grounds for a copyright infringement lawsuit based on directly applicable precedent.** Entering the brand monitoring market at scale would dramatically increase our visibility to publishers and wire services.
+**The copyright risk is lower than previously assessed.** However, licensing partnerships remain advisable for:
+1. Legal protection as the product scales into brand monitoring
+2. Access to premium/paywalled content that cannot be scraped
+3. Good-faith defense if any publisher raises concerns
 
-**Immediate action required:** Reduce displayed content to headline + link. Begin licensing conversations with PTI (India wire service) within 30 days. *(Source: legal-compliance.md)*
+**Recommended action:** Begin licensing conversations with PTI (India wire service) and other partners as the brand monitoring product develops. *(Source: legal-compliance.md, updated 2026-02-04)*
 
 ---
 
@@ -289,7 +290,7 @@ The wide Year 5 range ($8M-$72M) reflects genuine execution uncertainty. The bas
 
 | Rank | Risk | Severity | Likelihood | Mitigation |
 |---|---|---|---|---|
-| **1** | **Copyright/legal exposure** -- current product displays full article text without licensing, directly paralleling AP v. Meltwater ($5M settlement) | **CRITICAL** | HIGH (if detected) | **Immediately** reduce to headline + link. Begin PTI licensing within 30 days. Engage IP counsel ($20K-$50K). |
+| **1** | **Content licensing gaps** -- no licensing agreements limits access to premium/paywalled content and leaves position weaker than licensed competitors | **MEDIUM** | MEDIUM | Begin PTI licensing for India expansion. Pursue aggregator partnerships (NewsAPI, LexisNexis) for broader coverage. |
 | **2** | **Content licensing as barrier** -- minimum viable stack costs $138K-$355K/year; Factiva/LexisNexis negotiations take 6-12 months; partners prefer established companies | HIGH | MEDIUM | Start with accessible Indian partners (PTI, IANS). Build compliance infrastructure before approaching Western aggregators. Use India track record to unlock LexisNexis. |
 | **3** | **Twitter/X API pricing volatility** -- Enterprise access costs $504K-$1.2M+/year; Musk-era pricing is unpredictable and has changed multiple times | HIGH | HIGH | Defer Twitter to Phase 2. Budget 20% buffer. Use Webz.io as partial substitute. Start with Pro tier ($60K/year). |
 | **4** | **The "good enough" problem** -- 60-70% of organizations never pay for monitoring; Google Alerts catches 70% of what paid tools catch | MEDIUM | HIGH (structural) | Target the Stage 1-to-2 transition buyer with a product dramatically better than free. AI-powered accuracy and social coverage are the upgrade triggers that Google Alerts cannot match. |
@@ -305,7 +306,7 @@ The wide Year 5 range ($8M-$72M) reflects genuine execution uncertainty. The bas
 
 | Month | Actions |
 |---|---|
-| **Month 1-2** | **URGENT: Fix copyright risk** -- reduce displayed content to headline + link + AI-generated summary. Build content rights management system. Sign NewsAPI ($5.4K/year, instant). Begin NER pipeline development (spaCy en_core_web_trf). |
+| **Month 1-2** | Sign NewsAPI ($5.4K/year, instant) for broader coverage. Begin NER pipeline development (spaCy en_core_web_trf). Build content rights management system for future licensing integrations. |
 | **Month 1-3** | Negotiate and sign PTI license ($15K-$40K/year). Engage IP/copyright legal counsel ($20K-$50K). Implement GDPR/DPDP compliance framework. Build sentiment pipeline (fine-tuned RoBERTa, 78-88% accuracy). |
 | **Month 3-5** | Sign IANS license ($4K-$12K/year). Build brand monitoring dashboard (React/Next.js). Implement SimHash deduplication. Integrate alert system (email + Slack). Begin CCC license process. |
 | **Month 5-6** | **MVP LAUNCH** (India-focused, $49-$199/month). Contact 3-4 Indian publisher groups for licensing. Begin LexisNexis outreach (6-12 month negotiation lead time). |
@@ -337,8 +338,8 @@ The wide Year 5 range ($8M-$72M) reflects genuine execution uncertainty. The bas
 
 AlmaLabs should enter the brand media monitoring market, but only if all three of the following conditions are satisfied:
 
-**Condition 1: Fix the copyright exposure within 30 days.**
-Immediately reduce displayed content in AlmaConnect News to headline + link. This is not optional. The AP v. Meltwater precedent is directly applicable, and entering a more visible market (brand monitoring) without fixing this would be reckless. Budget: $0 for the content change; $20K-$50K for legal counsel.
+**Condition 1: Secure initial content licensing within 90 days.**
+Begin licensing conversations with PTI (India wire service) and accessible aggregators like NewsAPI. While the current snippet + clickthrough model is lower risk than previously assessed, licensing partnerships will strengthen legal position, unlock premium content, and differentiate from competitors. Budget: $15K-$40K/year for PTI; $5.4K/year for NewsAPI.
 
 **Condition 2: Secure PTI licensing within 90 days.**
 Every major competitor built their business on licensed content. There is no viable path to a competitive product without it. PTI is the most accessible starting point (India-based, lower cost, shorter negotiation). Budget: $15K-$40K/year.
@@ -374,9 +375,9 @@ The MVP should be self-funded from AlmaConnect cash flows. No external capital s
 
 Swapnil should authorize the following actions immediately:
 
-1. **Stop displaying full article text in AlmaConnect News alerts.** Switch to headline + link + (optionally) a 2-3 sentence AI-generated summary. This eliminates the most direct parallel to AP v. Meltwater. Engineering effort: 1-2 weeks. Cost: negligible.
+1. **Sign up for NewsAPI Business tier** ($449/month). Instant access to 150,000+ global news sources via API. No negotiation required — self-serve signup. Provides broad coverage while other licensing negotiations proceed.
 
-2. **Engage an IP/copyright attorney** with expertise in US copyright law and content licensing. Budget: $20K-$50K for initial assessment and compliance framework design. This must happen before entering the brand monitoring market.
+2. **Initiate PTI licensing outreach.** Contact Press Trust of India's content licensing team. AlmaLabs' India presence and existing institutional client base are strong credentials. Target: signed agreement within 90 days.
 
 3. **Initiate PTI licensing outreach.** Contact Press Trust of India's content licensing team to begin commercial discussions. AlmaLabs' India presence and existing institutional client base are strong credentials. Target: signed agreement within 90 days.
 

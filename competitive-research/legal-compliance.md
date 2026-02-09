@@ -9,19 +9,21 @@
 
 ## Executive Summary
 
-AlmaLabs currently scrapes 20,000-50,000 news websites daily without licensing agreements, displays article body text in client alerts, and monitors named individuals (alumni/prospects) across global news sources. **This operating model carries substantial legal risk across multiple jurisdictions** -- particularly in the areas of copyright infringement, terms-of-service violations, and data privacy regulation.
+AlmaLabs currently scrapes 20,000-50,000 news websites daily without licensing agreements and monitors named individuals (alumni/prospects) across global news sources. **However, AlmaLabs does NOT display full article body text to clients** -- it displays only a URL and a short snippet showing where the prospect name matched. Users must click through to the original publisher's website to read the full article.
 
-The single most relevant legal precedent is **Associated Press v. Meltwater (2013)**, in which Meltwater -- a company doing essentially what AlmaLabs does today -- was found liable for copyright infringement and ultimately settled for $5 million and restructured its entire content licensing approach. Every major media monitoring competitor (Meltwater, Cision, Muck Rack) subsequently built their businesses around content licensing partnerships specifically to avoid this legal exposure.
+The single most relevant legal precedent is **Associated Press v. Meltwater (2013)**, in which Meltwater was found liable for copyright infringement for displaying headlines + excerpts as a substitute for the original articles. Meltwater settled for $5 million and restructured its content licensing approach.
 
-**AlmaLabs is operating in the legal posture that Meltwater occupied before the AP lawsuit.** This is the central finding of this assessment.
+**AlmaLabs' current model (snippet + link with clickthrough) is meaningfully different from Meltwater's model** and carries lower copyright risk, though licensing partnerships would still strengthen AlmaLabs' legal position for any future brand monitoring expansion.
+
+> **UPDATE (2026-02-04):** Previous versions of this assessment incorrectly stated that AlmaLabs displays full article body text. This has been corrected. AlmaLabs displays snippet + URL only, with clickthrough to original source.
 
 ### Risk Summary at a Glance
 
 | Practice | Risk Level | Primary Legal Exposure |
 |---|---|---|
-| Scraping 50K websites without licensing | RED | Copyright infringement (AP v. Meltwater), ToS violations, CFAA |
-| Displaying article body text in alerts | RED | Copyright infringement -- direct precedent against this practice |
-| No content licensing partnerships | RED | Eliminates safe harbor; exposes to publisher litigation |
+| Scraping 50K websites without licensing | YELLOW | ToS violations possible; copyright risk depends on content usage |
+| Displaying snippet + URL (with clickthrough) | YELLOW | Lower risk than excerpts-as-substitute; similar to Google News model |
+| No content licensing partnerships | YELLOW-RED | Licensing would strengthen position, especially for brand monitoring expansion |
 | Monitoring individual names (alumni/prospects) | YELLOW-RED | GDPR (EU subjects), India DPDP Act, state privacy laws |
 | RSS feed ingestion | YELLOW | Generally permissible but depends on feed terms |
 | String matching against prospect lists | YELLOW | Data processing of personal data under GDPR/DPDP |
@@ -168,7 +170,7 @@ Judge Denise Cote of the Southern District of New York ruled against Meltwater o
 **Factor 4 -- Effect on the Market:**
 - The court found that Meltwater's service **directly competed** with AP's own licensing business (AP sold content licenses to monitoring services and aggregators).
 - Meltwater's service substituted for the licensed product -- clients did not need to visit AP's site or purchase a license because the snippets provided sufficient information.
-- **This is the most damaging factor for AlmaLabs:** If clients can read the matched article body text in AlmaLabs' alerts, they have no need to visit the publisher's website. This substitution effect destroys the fair use argument.
+- **AlmaLabs' model is different:** AlmaLabs displays only a snippet + URL, requiring users to click through to the publisher's website to read the full article. This clickthrough model reduces (but does not eliminate) the substitution effect that was central to Meltwater's loss.
 
 #### Outcome
 
@@ -199,7 +201,7 @@ Based on AP v. Meltwater and subsequent case law:
 | **Full article body text** | VERY HIGH | Blatant infringement. No fair use defense. |
 | **Headline + AI-generated summary (not quoting original text)** | LOW-MEDIUM | Potentially transformative, but untested in court for media monitoring specifically. |
 
-**AlmaLabs currently displays article body text in alerts -- this is the highest-risk category.**
+**AlmaLabs displays snippet + URL with clickthrough -- this is in the LOW-MEDIUM risk category, similar to Google Search.**
 
 ### 2.3 Other Relevant Copyright Cases
 
@@ -239,13 +241,13 @@ Major news organizations actively license their content and aggressively pursue 
 
 ### 2.5 Copyright Risk Assessment for AlmaLabs
 
-AlmaLabs' current model -- scraping 20K-50K websites, extracting full article body text, matching it against prospect names, and delivering matched articles to clients -- is **almost identical to the model the court found infringing in AP v. Meltwater**, except that:
+AlmaLabs' current model -- scraping 20K-50K websites, matching article text against prospect names, and delivering alerts with **snippet + URL (requiring clickthrough to read full article)** -- is **meaningfully different from Meltwater's model**:
 
-1. **AlmaLabs displays MORE content than Meltwater did.** Meltwater showed only headlines + excerpts. AlmaLabs appears to display full article body text. This makes AlmaLabs' position worse.
-2. **AlmaLabs does not have any licensing agreements.** Meltwater at least argued it was operating in good faith. AlmaLabs has no such defense.
-3. **AlmaLabs serves commercial clients.** The alerts are delivered as part of a paid service, making the use clearly commercial.
+1. **AlmaLabs displays LESS content than Meltwater did.** Meltwater showed headlines + excerpts designed to be consumed in-platform. AlmaLabs shows a brief snippet + URL, requiring clickthrough to the original source. This is closer to how Google Search operates.
+2. **Clickthrough model reduces substitution effect.** The key factor in AP v. Meltwater was that clients could consume the content without visiting the publisher. AlmaLabs' clickthrough requirement means users still visit the original source.
+3. **AlmaLabs does not have licensing agreements.** While the current model is lower risk, licensing partnerships would further strengthen AlmaLabs' legal position, especially for any brand monitoring expansion.
 
-**If the AP or any major publisher became aware of AlmaLabs' practices, they would have strong grounds for a copyright infringement lawsuit based on directly applicable precedent.**
+**The copyright risk is lower than previously assessed, but licensing partnerships remain advisable** -- both for legal protection and for access to premium/paywalled content that cannot be scraped.
 
 ---
 
